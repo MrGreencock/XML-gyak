@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT menu (menu | item | separator)*>
+<!ELEMENT item EMPTY>
+<!ELEMENT separator EMPTY>
+<!ATTLIST menu name CDATA #REQUIRED>
+<!ATTLIST item name CDATA #REQUIRED>
